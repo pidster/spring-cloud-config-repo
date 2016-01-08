@@ -1,0 +1,4 @@
+service:
+  definition:
+    metadata:
+      uri: http://${spring.application.name}.${application.domain:weave.local}
